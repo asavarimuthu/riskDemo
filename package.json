@@ -1,14 +1,20 @@
 {
-  "name": "riskDemo",
+  "name": "riskdemo",
   "version": "1.0.0",
   "description": "A simple CAP project.",
-  "repository": "<Add your repository here>",
+  "repository": {
+    "type": "git",
+    "url": "<Add your repository here>"
+  },
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
+    "@sap/approuter": "^13.1.0",
     "@sap/cds": "^6",
+    "@sap/xssec": "^3",
     "express": "^4",
-    "hdb": "^0.19.0"
+    "hdb": "^0.19.0",
+    "passport": "^0"
   },
   "devDependencies": {
     "@sap/ux-specification": "^1.102.15",
@@ -48,9 +54,18 @@
   },
   "cds": {
     "requires": {
+      "auth": {
+        "kind": "xsuaa"
+      },
+      "approuter": {
+        "kind": "cloudfoundry"
+      }
     }
   },
   "sapux": [
     "app/riskdemo"
-  ]
+  ],
+  "main": "index.js",
+  "keywords": [],
+  "author": ""
 }

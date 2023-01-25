@@ -1,0 +1,11 @@
+#
+#Wed Jan 25 14:44:08 UTC 2023
+Description=API HUB Sandbox
+Type=HTTP
+HTML5.DynamicDestination=true
+Authentication=NoAuthentication
+WebIDEUsage=apihub_sandbox
+Name=apihub_sandbox
+WebIDEEnabled=true
+ProxyType=Internet
+URL=https\://sandbox.api.sap.com

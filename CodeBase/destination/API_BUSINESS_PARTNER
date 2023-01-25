@@ -1,0 +1,9 @@
+#
+#Wed Jan 25 14:44:05 UTC 2023
+URL=https\://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_BUSINESS_PARTNER/
+Name=API_BUSINESS_PARTNER
+HTML5.DynamicDestination=true
+ProxyType=Internet
+URL.headers.APIKey=IHcEubPtXX4r2vZVAZeL1pkgbdexlfbp
+Type=HTTP
+Authentication=NoAuthentication
